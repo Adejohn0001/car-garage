@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 15px;
+  display: flex;
+  place-items: center;
+  height: 100vh;
+  background-color: hsl(0, 0%, 95%);
+}
+
+main {
+  display: flex;
+  width: 50%;
+  margin: auto;
+}
+
+.grid-item1 {
+  background-color: hsl(31, 77%, 52%);
+  padding: 25px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.grid-item2 {
+  background-color: hsl(184, 100%, 22%);
+  padding: 25px;
+}
+
+.grid-item3 {
+  background-color: hsl(179, 100%, 13%);
+  padding: 25px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+h3 {
+  font-family: "Big Shoulders Display", cursive;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 700;
+  color: hsl(0, 0%, 95%);
+  margin-top: 1em;
+}
+
+p {
+  font-family: "Lexend Deca", sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+  margin: 1em 0em 4em;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.grid-item1 button {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 30px;
+  color: hsl(31, 77%, 52%);
+}
+
+.grid-item2 button {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 30px;
+  color: hsl(184, 100%, 22%);
+}
+
+.grid-item3 button {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 30px;
+  color: hsl(179, 100%, 13%);
+}
+.grid-item1 button:hover {
+  background-color: hsl(31, 77%, 52%);
+  cursor: pointer;
+  border: 2px hsl(0, 0%, 95%) solid;
+  color: hsl(0, 0%, 95%);
+  padding: 8px 15px;
+}
+
+.grid-item2 button:hover {
+  background-color: hsl(184, 100%, 22%);
+  cursor: pointer;
+  border: 2px hsl(0, 0%, 95%) solid;
+  color: hsl(0, 0%, 95%);
+  padding: 8px 15px;
+}
+
+.grid-item3 button:hover {
+  background-color: hsl(179, 100%, 13%);
+  cursor: pointer;
+  border: 2px hsl(0, 0%, 95%) solid;
+  color: hsl(0, 0%, 95%);
+  padding: 8px 15px;
+}
+
+
+@media (max-width: 375px){
+  main {
+    display: flex;
+    width: 70%;
+    margin: auto;
+  }
+  
+  .grid-item1 {
+    padding: 25px 0px 25px 15px;
+  }
+  
+  .grid-item2 {
+    padding: 25px 0px 25px 15px;
+  }
+  
+  .grid-item3 {
+    padding: 25px 0px 25px 15px;
+  }
+  
+  h3 {
+    font-size: 12px;
+  }
+  
+  p {
+    margin: 1em 0em 4em;
+    font-size: 10px;
+  }
+
+  .grid-item3 p{
+    margin-bottom: 28px;
+  }
+  .grid-item1 button {
+    padding: 10px 8px;
+    font-size: 10px;
+  }
+  
+  .grid-item2 button {
+    padding: 10px 8px;
+    font-size: 10px;
+  }
+  
+  .grid-item3 button {
+    padding: 10px 8px;
+    font-size: 10px;
+  }
+  .grid-item1 button:hover {
+    padding: 8px 5px;
+    font-size: 10px;
+  }
+  
+  .grid-item2 button:hover {
+    padding: 8px 5px;
+    font-size: 10px;
+  }
+  
+  .grid-item3 button:hover {
+    padding: 8px 5px;
+    font-size: 10px;
+  }
+}
